@@ -1,0 +1,7 @@
+Kristin Tong
+COEN 177
+Lab 2 - Processes and Threads
+
+Step 3:  I ran the sample code and it returned a segmentation fault
+
+Step 4:  There were 99 child and parent processes for 3000, 500, and 5000. But they took varying amounts of time to execute (3000, 500, and 5000 microseconds respectively).

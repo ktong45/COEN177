@@ -1,0 +1,9 @@
+(1)
+Program prints "Hello from thread..." [i] and then it prints "Thread [i] returned" and the thread is always returned in increasing order.
+
+Arguments are per-thread. The compiler stores these variable states in their thread control blocks.
+
+Variable i is a shared state between threads and it is saved as a main global variable. 
+
+(2)
+Without the loop, i is random and the program only prints "Hello from thread..." and "Main thread done" is printed toward the end of the program run.

@@ -1,0 +1,27 @@
+Kristin Tong
+COEN 177 Lab 6 - MINIX
+
+1) Install and run NoMachine and open a terminal
+2) use the commands as follows...
+	$ setup vmware
+	$ minix-get-image
+	$ vmware &
+3) click minix3 on the lefthand sidebar
+4) login with username `root` and optionally set password with `passwd`
+5) in the VM use commands as follows to get the IP of the VM
+	# tcpd ftp /usr/bin/in.ftpd &
+	# ifconfig
+6) in terminal use command
+	$ ftp <insert IP addr from step 5>
+7) login using root and password 
+8) go to kernel directory in host terminal
+	> cd /usr/src/kernel
+9) copy main.c file over from VM to host
+	> get main.c
+10) edit main.c in host terminal and copy it back to kernel directory
+	> put main.c
+11) in NoMachine VM use command
+	# cd /usr/src
+	# make world
+	# reboot
+12) changes should be applied and visible if inserted properly

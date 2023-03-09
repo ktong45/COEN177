@@ -1,0 +1,11 @@
+Kristin Tong
+Oct 12, 2022
+Lab 3 - pipes and threads (IPC)
+
+1) done
+2) done
+3) done
+4) done
+5) done
+6) some of the i values being printed are repeats.
+7) some threads may print the same values of i because we are passing i by reference not by value so we need to change that.

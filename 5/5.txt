@@ -1,0 +1,16 @@
+Kristin Tong
+Oct 27, 2022
+Lab 5 - Semaphores, locks, conditions
+
+(1)
+Only two threads can be running concurrently at a time and they enter and return in order.
+In lab 4, the threads were not always in order.
+
+(2)
+done
+
+(3)
+done
+
+(4)
+done
